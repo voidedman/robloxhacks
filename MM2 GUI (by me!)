@@ -1,0 +1,128 @@
+-- Sub to MMPro21 on YT
+-- Version 1.0.5
+-- MM2 GUI Script
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local BottomLog = Instance.new("TextLabel")
+local EclipseGUIButton = Instance.new("TextButton")
+local Scripts = Instance.new("TextLabel")
+local Extras = Instance.new("TextLabel")
+local VynixuGUIButton = Instance.new("TextButton")
+local OwlHubButton = Instance.new("TextButton")
+local Credits = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Main.Position = UDim2.new(0.108858056, 0, 0.161442012, 0)
+Main.Size = UDim2.new(0, 500, 0, 250)
+Main.Active = true
+Main.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Title.Size = UDim2.new(0, 500, 0, 23)
+Title.Font = Enum.Font.Nunito
+Title.Text = "MM2 GUI | By: SECRET_INFO99 | v1.0.5"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+BottomLog.Name = "Bottom Log"
+BottomLog.Parent = Main
+BottomLog.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+BottomLog.Position = UDim2.new(0, 0, 0.839999974, 0)
+BottomLog.Size = UDim2.new(0, 500, 0, 40)
+BottomLog.Font = Enum.Font.Sarpanch
+BottomLog.Text = "Updated 6/7/2021 | Check the RBXploits web page or the Pastebin for updates and more."
+BottomLog.TextColor3 = Color3.fromRGB(0, 0, 0)
+BottomLog.TextSize = 14.000
+
+EclipseGUIButton.Name = "EclipseGUIButton"
+EclipseGUIButton.Parent = Main
+EclipseGUIButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EclipseGUIButton.Position = UDim2.new(0.0439999998, 0, 0.280000001, 0)
+EclipseGUIButton.Size = UDim2.new(0, 168, 0, 34)
+EclipseGUIButton.Font = Enum.Font.Highway
+EclipseGUIButton.Text = "Eclipse GUI"
+EclipseGUIButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+EclipseGUIButton.TextSize = 27.000
+EclipseGUIButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(95, 93, 99)
+Scripts.Position = UDim2.new(0.0439999998, 0, 0.136000007, 0)
+Scripts.Size = UDim2.new(0, 168, 0, 20)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+Extras.Name = "Extras"
+Extras.Parent = Main
+Extras.BackgroundColor3 = Color3.fromRGB(95, 93, 99)
+Extras.Position = UDim2.new(0.620000005, 0, 0.136000007, 0)
+Extras.Size = UDim2.new(0, 168, 0, 20)
+Extras.Font = Enum.Font.SourceSans
+Extras.Text = "Extras"
+Extras.TextColor3 = Color3.fromRGB(0, 0, 0)
+Extras.TextSize = 14.000
+
+VynixuGUIButton.Name = "VynixuGUIButton"
+VynixuGUIButton.Parent = Main
+VynixuGUIButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixuGUIButton.Position = UDim2.new(0.0439999998, 0, 0.431999981, 0)
+VynixuGUIButton.Size = UDim2.new(0, 168, 0, 34)
+VynixuGUIButton.Font = Enum.Font.Highway
+VynixuGUIButton.Text = "Vynixu GUI"
+VynixuGUIButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+VynixuGUIButton.TextSize = 27.000
+VynixuGUIButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/VynixuMM2"))()
+end)
+
+OwlHubButton.Name = "OwlHubButton"
+OwlHubButton.Parent = Main
+OwlHubButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubButton.Position = UDim2.new(0.0439999998, 0, 0.591999948, 0)
+OwlHubButton.Size = UDim2.new(0, 168, 0, 34)
+OwlHubButton.Font = Enum.Font.Highway
+OwlHubButton.Text = "Owl Hub"
+OwlHubButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHubButton.TextSize = 27.000
+OwlHubButton.MouseButton1Down:connect(function()
+	local old
+old = hookfunction(game.HttpGetAsync, function(inst, url, state)
+  url = url:gsub('CriShoux', 'SiLeNSwOrD')
+  return old(inst, url, state)
+end)
+
+local old2
+old2 = hookfunction(game.HttpGet, function(inst, url, state)
+  url = url:gsub('CriShoux', 'SiLeNSwOrD')
+  return old2(inst, url, state)
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt"))()
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(186, 188, 202)
+Credits.Position = UDim2.new(0.620000005, 0, 0.280000001, 0)
+Credits.Size = UDim2.new(0, 168, 0, 46)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits: 1 F0, frstee"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 14.000

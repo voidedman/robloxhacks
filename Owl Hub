@@ -1,0 +1,16 @@
+-- Note: Owl Hub runs on paid Exploits/Executors like Synapse X, Protosmasher, Visenya, etc.
+-- Credits to: CriShoux#4012, Google Chrome#6242
+
+-- Owl Hub can run many popular games like Strucid, Arsenal, Bad Business, and even more!
+-- Featuring many FPS gui options ranging from ESP, Aimbot, Silent Aim, Weapon Mods, etc.
+
+-- Owl Hub also updates every now and then. Come back to find an updated version of this amazing script.
+-- Currently, Owl Hub runs on 35 different games. You can find those games at:
+-- https://v3rmillion.net/showthread.php?tid=912602
+
+-- Script:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+-- Enjoy!
+-- Post By: 1x5x0x7x3 on Pastebin
+-- Post By: MMarkosPro21 on Github

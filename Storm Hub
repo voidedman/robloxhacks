@@ -1,0 +1,151 @@
+-- Made by: SECRET_INFO99 and CheggyWaterSalad
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Scripts = Instance.new("TextLabel")
+local CreditsAndMore = Instance.new("TextLabel")
+local OwlHubButton = Instance.new("TextButton")
+local CreditsText = Instance.new("TextLabel")
+local EclipseButton = Instance.new("TextButton")
+local VynixuButton = Instance.new("TextButton")
+local WithHelpFrom = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local InfiniteYieldFEButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Main.Position = UDim2.new(0.234993622, 0, 0.423853159, 0)
+Main.Size = UDim2.new(0, 473, 0, 189)
+Main.Active = true
+Main.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.Size = UDim2.new(0, 473, 0, 24)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Storm ⚡  Hub"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.Position = UDim2.new(0.050761424, 0, 0.190476194, 0)
+Scripts.Size = UDim2.new(0, 137, 0, 24)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+CreditsAndMore.Name = "CreditsAndMore"
+CreditsAndMore.Parent = Main
+CreditsAndMore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsAndMore.Position = UDim2.new(0.598984838, 0, 0.190476194, 0)
+CreditsAndMore.Size = UDim2.new(0, 137, 0, 24)
+CreditsAndMore.Font = Enum.Font.SourceSans
+CreditsAndMore.Text = "Credits and More"
+CreditsAndMore.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditsAndMore.TextSize = 14.000
+
+OwlHubButton.Name = "OwlHubButton"
+OwlHubButton.Parent = Main
+OwlHubButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubButton.Position = UDim2.new(0.0507614203, 0, 0.370370358, 0)
+OwlHubButton.Size = UDim2.new(0, 137, 0, 22)
+OwlHubButton.Font = Enum.Font.Nunito
+OwlHubButton.Text = "Owl Hub"
+OwlHubButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHubButton.TextSize = 25.000
+OwlHubButton.MouseButton1Down:connect(function()
+	local old
+	old = hookfunction(game.HttpGetAsync, function(inst, url, state)
+		url = url:gsub('CriShoux', 'SiLeNSwOrD')
+		return old(inst, url, state)
+	end)
+
+	local old2
+	old2 = hookfunction(game.HttpGet, function(inst, url, state)
+		url = url:gsub('CriShoux', 'SiLeNSwOrD')
+		return old2(inst, url, state)
+	end)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt"))()
+end)
+
+CreditsText.Name = "CreditsText"
+CreditsText.Parent = Main
+CreditsText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsText.Position = UDim2.new(0.497064888, 0, 0.365079373, 0)
+CreditsText.Size = UDim2.new(0, 231, 0, 30)
+CreditsText.Font = Enum.Font.SourceSans
+CreditsText.Text = "Credits: SECRET_INFO99, CheggyWaterSalad"
+CreditsText.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditsText.TextSize = 14.000
+
+EclipseButton.Name = "EclipseButton"
+EclipseButton.Parent = Main
+EclipseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EclipseButton.Position = UDim2.new(0.0507614203, 0, 0.523809493, 0)
+EclipseButton.Size = UDim2.new(0, 137, 0, 22)
+EclipseButton.Font = Enum.Font.Nunito
+EclipseButton.Text = "Eclipse GUI"
+EclipseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+EclipseButton.TextSize = 25.000
+EclipseButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+VynixuButton.Name = "VynixuButton"
+VynixuButton.Parent = Main
+VynixuButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixuButton.Position = UDim2.new(0.0507614203, 0, 0.677248657, 0)
+VynixuButton.Size = UDim2.new(0, 137, 0, 22)
+VynixuButton.Font = Enum.Font.Nunito
+VynixuButton.Text = "Vynixu GUI"
+VynixuButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+VynixuButton.TextSize = 25.000
+VynixuButton.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+WithHelpFrom.Name = "WithHelpFrom"
+WithHelpFrom.Parent = Main
+WithHelpFrom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WithHelpFrom.Position = UDim2.new(0.497064888, 0, 0.560846567, 0)
+WithHelpFrom.Size = UDim2.new(0, 231, 0, 30)
+WithHelpFrom.Font = Enum.Font.SourceSans
+WithHelpFrom.Text = "With help from: 1 F0, frstee"
+WithHelpFrom.TextColor3 = Color3.fromRGB(0, 0, 0)
+WithHelpFrom.TextSize = 20.000
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.Position = UDim2.new(0.497064888, 0, 0.751322746, 0)
+Version.Size = UDim2.new(0, 231, 0, 30)
+Version.Font = Enum.Font.SourceSans
+Version.Text = "Version: 1.0.0"
+Version.TextColor3 = Color3.fromRGB(0, 0, 0)
+Version.TextSize = 30.000
+
+InfiniteYieldFEButton.Name = "InfiniteYieldFEButton"
+InfiniteYieldFEButton.Parent = Main
+InfiniteYieldFEButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYieldFEButton.Position = UDim2.new(0.0507614203, 0, 0.835978806, 0)
+InfiniteYieldFEButton.Size = UDim2.new(0, 137, 0, 22)
+InfiniteYieldFEButton.Font = Enum.Font.Nunito
+InfiniteYieldFEButton.Text = "Inf Yield FE"
+InfiniteYieldFEButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYieldFEButton.TextSize = 25.000
+InfiniteYieldFEButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)

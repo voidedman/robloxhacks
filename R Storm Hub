@@ -1,0 +1,287 @@
+-- yea
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local retardedScripts = Instance.new("TextLabel")
+local retardedGUIs = Instance.new("TextLabel")
+local retardedInfo = Instance.new("TextLabel")
+local RevizAdmin = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local StormHubFree = Instance.new("TextButton")
+local KekguiTPG = Instance.new("TextButton")
+local SSExec = Instance.new("TextButton")
+local weirdUniversalScript = Instance.new("TextButton")
+local Info_retarded = Instance.new("TextButton")
+local owlHub = Instance.new("TextButton")
+local Cookburgers = Instance.new("TextButton")
+local tds = Instance.new("TextButton")
+local BSS = Instance.new("TextButton")
+local InfYieldFE = Instance.new("TextButton")
+local EclipseMM2 = Instance.new("TextButton")
+local VynixuMM2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(82, 195, 255)
+Main.Position = UDim2.new(0.184044227, 0, 0.10798122, 0)
+Main.Size = UDim2.new(0, 800, 0, 500)
+Main.Active = true
+Main.Draggable = true
+
+title.Name = "title"
+title.Parent = Main
+title.BackgroundColor3 = Color3.fromRGB(144, 255, 205)
+title.Size = UDim2.new(0, 800, 0, 68)
+title.Font = Enum.Font.SourceSans
+title.Text = "Storm ⚡ Hub for Retarded People"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Main
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.Position = UDim2.new(0, 0, 0.959999979, 0)
+CloseButton.Size = UDim2.new(0, 800, 0, 20)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "A close button because this is a script for retarded people"
+CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.TextSize = 14.000
+CloseButton.MouseButton1Down:connect(function()
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end)
+
+retardedScripts.Name = "retardedScripts"
+retardedScripts.Parent = Main
+retardedScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+retardedScripts.Position = UDim2.new(0.0375000015, 0, 0.184, 0)
+retardedScripts.Size = UDim2.new(0, 200, 0, 50)
+retardedScripts.Font = Enum.Font.SourceSans
+retardedScripts.Text = "Retarded Scripts"
+retardedScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+retardedScripts.TextSize = 14.000
+
+retardedGUIs.Name = "retardedGUIs"
+retardedGUIs.Parent = Main
+retardedGUIs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+retardedGUIs.Position = UDim2.new(0.327499986, 0, 0.184, 0)
+retardedGUIs.Size = UDim2.new(0, 200, 0, 50)
+retardedGUIs.Font = Enum.Font.SourceSans
+retardedGUIs.Text = "Retarded GUIs"
+retardedGUIs.TextColor3 = Color3.fromRGB(0, 0, 0)
+retardedGUIs.TextSize = 14.000
+
+retardedInfo.Name = "retardedInfo"
+retardedInfo.Parent = Main
+retardedInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+retardedInfo.Position = UDim2.new(0.671249986, 0, 0.184, 0)
+retardedInfo.Size = UDim2.new(0, 200, 0, 50)
+retardedInfo.Font = Enum.Font.SourceSans
+retardedInfo.Text = "Retarded Info"
+retardedInfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+retardedInfo.TextSize = 14.000
+
+RevizAdmin.Name = "RevizAdmin"
+RevizAdmin.Parent = Main
+RevizAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdmin.Position = UDim2.new(0.0587500036, 0, 0.319999993, 0)
+RevizAdmin.Size = UDim2.new(0, 166, 0, 36)
+RevizAdmin.Font = Enum.Font.SourceSans
+RevizAdmin.Text = "Reviz Admin v2"
+RevizAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+RevizAdmin.TextSize = 14.000
+RevizAdmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/Hy89qFpd'))
+end)
+
+Dex.Name = "Dex"
+Dex.Parent = Main
+Dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dex.Position = UDim2.new(0.0587500036, 0, 0.407999992, 0)
+Dex.Size = UDim2.new(0, 166, 0, 36)
+Dex.Font = Enum.Font.SourceSans
+Dex.Text = "DEX Explorer"
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextSize = 14.000
+Dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/9jSyzh8b'))
+end)
+
+StormHubFree.Name = "StormHubFree"
+StormHubFree.Parent = Main
+StormHubFree.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StormHubFree.Position = UDim2.new(0.0587500036, 0, 0.497999996, 0)
+StormHubFree.Size = UDim2.new(0, 166, 0, 36)
+StormHubFree.Font = Enum.Font.SourceSans
+StormHubFree.Text = "Storm Hub - Free"
+StormHubFree.TextColor3 = Color3.fromRGB(0, 0, 0)
+StormHubFree.TextSize = 14.000
+StormHubFree.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MMarkosPro21/roblox-hacks/main/Storm%20Hub'))
+end)
+
+KekguiTPG.Name = "KekguiTPG"
+KekguiTPG.Parent = Main
+KekguiTPG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KekguiTPG.Position = UDim2.new(0.0587500036, 0, 0.588, 0)
+KekguiTPG.Size = UDim2.new(0, 166, 0, 36)
+KekguiTPG.Font = Enum.Font.SourceSans
+KekguiTPG.Text = "Kek GUI (TPG)"
+KekguiTPG.TextColor3 = Color3.fromRGB(0, 0, 0)
+KekguiTPG.TextSize = 14.000
+KekguiTPG.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MMarkosPro21/roblox-hacks/main/KEK%20GUI'))
+end)
+
+SSExec.Name = "SSExec"
+SSExec.Parent = Main
+SSExec.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SSExec.Position = UDim2.new(0.0587500036, 0, 0.677999973, 0)
+SSExec.Size = UDim2.new(0, 166, 0, 36)
+SSExec.Font = Enum.Font.SourceSans
+SSExec.Text = "SS Executor"
+SSExec.TextColor3 = Color3.fromRGB(0, 0, 0)
+SSExec.TextSize = 14.000
+SSExec.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/MDwd1xhU'))
+end)
+
+weirdUniversalScript.Name = "weirdUniversalScript"
+weirdUniversalScript.Parent = Main
+weirdUniversalScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+weirdUniversalScript.Position = UDim2.new(0.0587500036, 0, 0.768000007, 0)
+weirdUniversalScript.Size = UDim2.new(0, 166, 0, 36)
+weirdUniversalScript.Font = Enum.Font.SourceSans
+weirdUniversalScript.Text = "My Weird Universal Script"
+weirdUniversalScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+weirdUniversalScript.TextSize = 14.000
+weirdUniversalScript.MouseButton1Down:connect(function()
+	print('Coming Soon!')
+end)
+
+Info_retarded.Name = "Info_retarded"
+Info_retarded.Parent = Main
+Info_retarded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_retarded.Position = UDim2.new(0.692499995, 0, 0.319999993, 0)
+Info_retarded.Size = UDim2.new(0, 166, 0, 89)
+Info_retarded.Font = Enum.Font.SourceSans
+Info_retarded.Text = "This script was made my MMarkosPro21_YT_Quack#5638 on Discord. Join Storm Hub today! https://discord.gg/WV8yn6M9fy"
+Info_retarded.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_retarded.TextScaled = true
+Info_retarded.TextSize = 14.000
+Info_retarded.TextWrapped = true
+
+owlHub.Name = "owlHub"
+owlHub.Parent = Main
+owlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+owlHub.Position = UDim2.new(0.348749995, 0, 0.319999993, 0)
+owlHub.Size = UDim2.new(0, 166, 0, 36)
+owlHub.Font = Enum.Font.SourceSans
+owlHub.Text = "Owl Hub"
+owlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+owlHub.TextSize = 14.000
+owlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Cookburgers.Name = "Cookburgers"
+Cookburgers.Parent = Main
+Cookburgers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cookburgers.Position = UDim2.new(0.348749995, 0, 0.407999992, 0)
+Cookburgers.Size = UDim2.new(0, 166, 0, 36)
+Cookburgers.Font = Enum.Font.SourceSans
+Cookburgers.Text = "Cook Burgers"
+Cookburgers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cookburgers.TextSize = 14.000
+Cookburgers.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://typicaldoggo.xyz/i/lz9t.txt"))()
+end)
+
+tds.Name = "tds"
+tds.Parent = Main
+tds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tds.Position = UDim2.new(0.348749995, 0, 0.497999996, 0)
+tds.Size = UDim2.new(0, 166, 0, 36)
+tds.Font = Enum.Font.SourceSans
+tds.Text = "Tower Defense Simulator (TDS)"
+tds.TextColor3 = Color3.fromRGB(0, 0, 0)
+tds.TextSize = 14.000
+tds.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
+end)
+
+BSS.Name = "BSS"
+BSS.Parent = Main
+BSS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BSS.Position = UDim2.new(0.348749995, 0, 0.588, 0)
+BSS.Size = UDim2.new(0, 166, 0, 36)
+BSS.Font = Enum.Font.SourceSans
+BSS.Text = "Bee Swarm Simulator"
+BSS.TextColor3 = Color3.fromRGB(0, 0, 0)
+BSS.TextSize = 14.000
+BSS.MouseButton1Down:connect(function()
+	shared.autoload = false
+
+	loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+end)
+
+InfYieldFE.Name = "InfYieldFE"
+InfYieldFE.Parent = Main
+InfYieldFE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfYieldFE.Position = UDim2.new(0.348749995, 0, 0.677999973, 0)
+InfYieldFE.Size = UDim2.new(0, 166, 0, 36)
+InfYieldFE.Font = Enum.Font.SourceSans
+InfYieldFE.Text = "Infinite Yield FE"
+InfYieldFE.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYieldFE.TextSize = 14.000
+InfYieldFE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+EclipseMM2.Name = "EclipseMM2"
+EclipseMM2.Parent = Main
+EclipseMM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EclipseMM2.Position = UDim2.new(0.348749995, 0, 0.768000007, 0)
+EclipseMM2.Size = UDim2.new(0, 166, 0, 36)
+EclipseMM2.Font = Enum.Font.SourceSans
+EclipseMM2.Text = "Eclipse MM2"
+EclipseMM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+EclipseMM2.TextSize = 14.000
+EclipseMM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+VynixuMM2.Name = "VynixuMM2"
+VynixuMM2.Parent = Main
+VynixuMM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixuMM2.Position = UDim2.new(0.348749995, 0, 0.85800004, 0)
+VynixuMM2.Size = UDim2.new(0, 166, 0, 36)
+VynixuMM2.Font = Enum.Font.SourceSans
+VynixuMM2.Text = "Vynixu MM2"
+VynixuMM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+VynixuMM2.TextSize = 14.000
+VynixuMM2.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+-- Scripts:
+
+local function GQPY_fake_script() -- CloseButton.Script 
+	local script = Instance.new('Script', CloseButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GQPY_fake_script)()

